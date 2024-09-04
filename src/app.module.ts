@@ -3,6 +3,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { JokesModule } from './jokes/jokes.module';
 import { MongooseModule } from '@nestjs/mongoose';
+import { JokesService } from './jokes/jokes.service';
 
 @Module({
   imports: [JokesModule, MongooseModule.forRoot('mongodb+srv://musthafaaltaf2001:oMgInR4wdiBBv1XK@submitjoke.bjiyq.mongodb.net')],
